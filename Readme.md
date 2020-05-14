@@ -1,7 +1,7 @@
 # Личный проект «Глейси»
 
 * Студент: [Саид Я](https://up.htmlacademy.ru/htmlcss/28/user/1448769).
-* Наставник: `Константин Соколов`.
+* Наставник: `Константин Соколов`(https://htmlacademy.ru/profile/costigans).
 
 ---
 

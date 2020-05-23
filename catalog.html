@@ -33,7 +33,22 @@
     </header>
 
     <main>
-      <!--Хлебные крошки жи есть-->
+      <!--ХЛЕБНЫЕ КРОШКИ ТАК ПОЙДУТ?-->
+      <ul class="breadcrumb">
+        <li>
+          <a href="index.html">Главная</a>
+        </li>
+        <li class="active">
+          Каталог
+        </li>
+        <li>
+          <a href="#">Доставка и оплата</a>
+        </li> 
+        <li>
+          <a href="#"></a>О Окмпании</a>
+        </li>
+      </ul>
+
       <h1>Сливочное мороженое</h1>
 
       <section class="filter">
@@ -41,99 +56,69 @@
         <!--Не знаю пока-->
       </section>
 
-      <section class="product">
-        <h2 class="visually-hidden">Продукты</h2>
-
-        <ul class="hits-list">
-          <li class="hits-list-item">
-            <p>310 ₽<span>/кг</span></p>
-            <figure>
+      <section class="products">  <!-- «products» их же тут много "ИСПРАВИЛ" -->
+        <h2 class="visually-hidden">Продукты</h2> <!-- Лишний заголовк, у тебя уже есть «говорящий» h1 "А ПОЧЕМУ В УЧЕБНЫХ ПРОЕКТАХ РАЗМЕЧАЮТ ТАК?"-->
+        <ul class="products-list"> <!-- А все ли товары здесь «Хиты»? "ИСПРАВИЛ" -->
+          <li class="products-list-item">
+            <p>310 ₽<span>/кг</span></p> <!-- span следует открывать до цены, т.к. она такого же размера как и знак рубля. "ЦЕНА И ЗНАК РУБЛЯ ОДИНАКОВЫЕ ВЕДЬ"-->
               <img src="#" width="267" height="267" alt="мороженное оранжевого цвета">
-              <figcaption>Сливочное с апельсиновым джемом и цитрусовой стружкой</figcaption>
-          </figure> 
-          </li>
-          <li class="hits-list-item">
-            <p>380 ₽<span>/кг</span></p>
-            <figure>
+              <p>Сливочное с апельсиновым джемом и цитрусовой стружкой</p> <!-- Усложняешь, figcaption используетсядля других целей. Подумай какой тег будет здесь уместнее  "teg P"-->
+          </li>products
+          <li class="products-list-item">
+            <p>380 ₽<span>/кг</span></p>p
               <img src="#" width="267" height="267" alt="мороженное коричневого цветао">
-              <figcaption>Сливочно-кофейное с кусочками шоколада</figcaption>
-          </figure> 
+              <p>Сливочно-кофейное с кусочками шоколада</p>p
           </li>
-          <li class="hits-list-item">
-            <p>355 ₽<span>/кг</span></p>
-            <figure>
+          <li class="products-list-item">
+            <p>355 ₽<span>/кг</span></p>p
               <img src="#" width="267" height="267" alt="мороженное розового цвета">
-              <figcaption>Сливочно-клубничное с присыпкой из белого шоколада</figcaption>
-          </figure> 
+              <p>Сливочно-клубничное с присыпкой из белого шоколада</p>p
           </li>
-          <li class="hits-list-item">
-            <p>415 ₽<span>/кг</span></p>
-            <figure>
+          <li class="products-list-item">
+            <p>415 ₽<span>/кг</span></p>p
               <img src="#" width="267" height="267" alt="мороженное карамельного цвета">
-              <figcaption>Сливочное крем-брюле с карамельной подливкой</figcaption>
-          </figure> 
+              <p>Сливочное крем-брюле с карамельной подливкой</p>p
           </li>
-        </ul>
-
-        <ul class="hits-list">
-          <li class="hits-list-item">
-            <p>325 ₽<span>/кг</span></p>
-            <figure>
+ <!-- Зачем тут разные списки? Это единый многострочный список товаров "УБРАЛ"-->
+          <li class="products-list-item">
+            <p>325 ₽<span>/кг</span></p>p
               <img src="#" width="267" height="267" alt="мороженное белого и красного цвета">
-              <figcaption>Сливочное с брусничным джемом</figcaption>
-          </figure> 
+              <p>Сливочное с брусничным джемом</p>p
           </li>
-          <li class="hits-list-item">
-            <p>410 ₽<span>/кг</span></p>
-            <figure>
+          <li class="products-list-item">
+            <p>410 ₽<span>/кг</span></p>p
               <img src="#" width="267" height="267" alt="мороженное светло черничного цветао">
-              <figcaption>Сливочно-черничное с цельными ягодами черники </figcaption>
-          </figure> 
+              <p>Сливочно-черничное с цельными ягодами черники </p>p
           </li>
-          <li class="hits-list-item">
-            <p>315 ₽<span>/кг</span></p>
-            <figure>
+          <li class="products-list-item">
+            <p>315 ₽<span>/кг</span></p>p
               <img src="#" width="267" height="267" alt="мороженное желтого цвета">
-              <figcaption>Сливочно-лимонное с карамельной присыпкой</figcaption>
-          </figure> 
+              <p>Сливочно-лимонное с карамельной присыпкой</p>p
           </li>
-          <li class="hits-list-item">
-            <p>320 ₽<span>/кг</span></p>
-            <figure>
+          <li class="products-list-item">
+            <p>320 ₽<span>/кг</span></p>p
               <img src="#" width="267" height="267" alt="мороженное белого цвета с шоколадной стружкой">
-              <figcaption>Сливочное с шоколадной стружкой</figcaption>
-          </figure> 
+              <p>Сливочное с шоколадной стружкой</p>p
           </li>
-        </ul>
-
-        <ul class="hits-list">
-          <li class="hits-list-item">
-            <p>440 ₽<span>/кг</span></p>
-            <figure>
+          <li class="products-list-item">
+            <p>440 ₽<span>/кг</span></p>p
               <img src="#" width="267" height="267" alt="мороженное желтого цвета с кусочками шоколада">
-              <figcaption>Сливочно-ванильное с кусочками шоколада</figcaption>
-          </figure> 
+              <p>Сливочно-ванильное с кусочками шоколада</p>p
           </li>
-          <li class="hits-list-item">
-            <p>435 ₽<span>/кг</span></p>
-            <figure>
+          <li class="products-list-item">
+            <p>435 ₽<span>/кг</span></p>p
               <img src="#" width="267" height="267" alt="мороженное бирюзового цветао">
-              <figcaption>Сливочноe с ментоловым сиропом</figcaption>
-          </figure> 
+              <p>Сливочноe с ментоловым сиропом</p>p
           </li>
-          <li class="hits-list-item">
-            <p>355 ₽<span>/кг</span></p>
-            <figure>
+          <li class="products-list-item">
+            <p>355 ₽<span>/кг</span></p>p
               <img src="#" width="267" height="267" alt="мороженное белого цвета с кусочками шоколада">
-              <figcaption>Сливочное с кусочками черного шоколада</figcaption>
-          </figure> 
+              <p>Сливочное с кусочками черного шоколада</p>p
           </li>
-          <li class="hits-list-item">
-            <p>420 ₽<span>/кг</span></p>
-            <figure>
+          <li class="products-list-item">
+            <p>420 ₽<span>/кг</span></p>p
               <img src="#" width="267" height="267" alt="мороженное светло зеленого цвета">
-              <figcaption>Сливочное с мятным сиропом</figcaption>
-          </figure> 
+              <p>Сливочное с мятным сиропом</p>p
           </li>
         </ul>
       </section>
@@ -159,7 +144,7 @@
             <a href="#">&gt;</a>
           </li>
         </ul>
-      </section>   
+      </section>
     </main>
 
     <footer class="main-footer">
@@ -181,14 +166,23 @@
           </li>
         </ul>
       </section>
-      
-      <section class="menu">
-        <h2 class="visually-hidden">Меню</h2>
-        <!-- Иконку сердца добавить тут или в CSS ? Считаю в CSS. Если тут, то куда надо вставить этот код &#9829;-->
-        <a href="#">Для поставщиков</a>
-        <a href="#">О производстве</a>
-        <a href="#">Наши документы</a>
-        <a href="#">Экологические стандарты</a>
+
+      <section class="imformations">
+        <h2 class="visually-hidden">Дополнительная информация</h2>
+         <ul class="imformations-list">
+            <li class="imformations-list-item">
+              <a href="#">Для поставщиков</a>
+            </li>
+            <li imformations-list-item>
+              <a href="#">О производстве</a>
+            </li >
+            <li imformations-list-item>
+              <a href="#">Наши документы</a>
+            </li>
+            <li imformations-list-item>
+              <a href="#">Экологические стандарты</a>
+            </li>
+        </ul>
       </section>
 
       <section class="HTMLAcademy">

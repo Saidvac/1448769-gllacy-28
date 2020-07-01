@@ -33,7 +33,26 @@
     </header>
 
     <main>
-      <h1 class="visually-hidden">Интеренет-магазина "Glasy shop"</h1>
+      <h1 class="visually-hidden">Интеренет-магазина "Gllasy shop"</h1>
+
+      <section class="two-icecreams">
+        <h2 class="visually-hidden">Баннеры с двумя видами мороженного</h2>
+        <ul class="two-icecreams-list">
+          <li class="two-icecreams-green" style="background-color: #849D8F;">
+            <img src="img/icecreams-bg-green.png" width="647" height="584">
+            <button>переключить</button>
+          </li>
+          <li class="two-icecreams-blue" style="background-color: #8996A6;">
+            <img src="img/icecreams-bg-blue.png" width="647" height="584">
+            <button>переключить</button>
+          </li>
+          <li class="two-icecreams-red" style="background-color: #9D8B84;">
+            <img src="img/icecreams-bg-red.png" width="647" height="584">
+            <button type="button">переключить</button>
+          </li>
+        </ul>
+
+      </section>
 
       <section class="banner">
         <h2>Акции</h2>
@@ -53,31 +72,31 @@
         <h2 class="visually-hidden">Популярное</h2>
         <ul class="hits-list">
           <li class="hits-list-item"> 
-            <div>
+            <div class="quick-view">
               <img src="img/orange.jpg" width="267" height="267" alt="мороженное оранжевого цвета">
               <p>310 ₽<span>/кг</span></p>
-              <p>Сливочное с апельсиновым джемом и цитрусовой стружкой</p>
+              <a href="#">Сливочное с апельсиновым джемом и цитрусовой стружкой</a>
           </div>
           </li>
           <li class="hits-list-item">        
-            <div>
+            <div class="quick-view">
               <img src="img/chocolate.jpg" width="267" height="267" alt="мороженное коричневого цветао">
               <p>380 ₽<span>/кг</span></p>
-              <p>Сливочно-кофейное с кусочками шоколада</p>
+              <a href="#">Сливочно-кофейное с кусочками шоколада</a>
           </div>
           </li>
           <li class="hits-list-item">
-            <div>
+            <div class="quick-view">
               <img src="img/strawberry_white_chocolate.jpg" width="267" height="267" alt="мороженное розового цвета">
               <p>355 ₽<span>/кг</span></p>
-              <p>Сливочно-клубничное с присыпкой из белого шоколада</p>
+              <a href="#">Сливочно-клубничное с присыпкой из белого шоколада</a>
           </div>
           </li>
           <li class="hits-list-item">
-            <div>
+            <div class="quick-view">
               <img src="img/cream_caramel.jpg" width="267" height="267" alt="мороженное карамельного цвета">
               <p>415 ₽<span>/кг</span></p>
-              <p>Сливочное крем-брюле с карамельной подливкой </p>
+              <a href="#">Сливочное крем-брюле с карамельной подливкой </a>
           </div>
           </li>
         </ul>
@@ -104,7 +123,7 @@
         <form action="https://echo.htmlacademy.ru/courses" method="get">
           <label for="email" class="visually-hidden">E-mail</label>
           <input type="email" name="email" placeholder="email@example.com">
-          <input type="submit" value="отправить">
+          <button type="button">отправить</button>
         </form>
       </section>
 
@@ -116,7 +135,7 @@
           <p>Для заказов по телефону:</p>
           <a href="tel:+78124502525" class="phone-number">8 812 450-25-25</a>
           <p>(с 10 до 20 ежедневно)</p>
-          <input type="button" value="Форма обратной связи">
+          <button type="button">Форма обратной связи</button>
         </div>
         <img src="img/maps.png" width="1200" height="430" alt="ул. Большая Конюшенная, 19/8, Санкт-Петербург">
       </section>
@@ -192,15 +211,13 @@
       <h2 class="visually-hidden">Вход</h2>
       <form action="https://echo.htmlacademy.ru/courses" method="post">
         <label for="email" class="visually-hidden">E-mail</label>
-        <input type="email" name="email" id="email" placeholder="email@example.com" required> <br>
+        <input type="email" name="email" id="email" placeholder="email@example.com" required> 
         <label for="password-field" class="visually-hidden">Ваш пароль</label>
-        <input type="password" name="password" id="password-field" value="......" required> <br>
-        <div class="button">
-          <input type="button" value="Войти">
-        </div>
+        <input type="password" name="password" id="password-field" placeholder="......" required> 
+        <button type="button">Войти</button>
       </form>
-      <p>Забыли пароль?</p>
-      <p>Новая регистрация</p>
+      <a href="#">Забыли пароль?</p>
+      <a href="#">Новая регистрация</p>
     </section>
 
     <section>
@@ -213,7 +230,7 @@
 
     <div class="basketgoods">
       <h2 class="visually-hidden">Корзина</h2>
-      <a href="@" class="basket">Пусто</a>
+      <a href="#" class="basket">Пусто</a>
     </div>
 
     <section class="feedback">
@@ -221,13 +238,11 @@
       <p>Мы обязательно вам ответим!</p>
       <form action="https://echo.htmlacademy.ru/courses" method="get">
         <label for="text" class="visually-hidden">Имя Фамилия</label>
-        <input type="text" name="text" id="text" placeholder="Имя Фамилия" required> <br>
+        <input type="text" name="text" id="text" placeholder="Имя Фамилия" required> 
         <label for="email" class="visually-hidden">E-mail</label>
-        <input type="email" name="email" id="email" placeholder="email@example.com" required> <br>
-        <textarea name="comment" id="comment-field" rows="">В свободной форме</textarea>
-        <div class="button">
-          <input type="button" value="Войти">
-        </div>
+        <input type="email" name="email" id="email" placeholder="email@example.com" required> 
+        <textarea name="comment" id="comment-field" rows="7">В свободной форме</textarea>
+        <button type="button">Войти</button>
       </form>
     </section>
 

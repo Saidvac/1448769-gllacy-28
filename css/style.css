@@ -1,0 +1,176 @@
+/* Variables */
+
+:root {
+  --basic-green: #849D8F;
+  --basic-blue: #8996A6;
+  --basic-red: #9D8B84;
+  --basic-black: #323232;
+  --basic-white: #FFFFFF;
+  --basic-grey: #F8F7F4;
+
+  --background-hover-pink: #FBDED7;
+  --background-focus-pink: #F6B5A5;
+  --background-active-pink: #D07058;
+
+  --link-pink: #FFBC9E;
+  --link-onwhite-pink: #E84D37;
+  
+  }
+
+body {
+  min-width: 1200px;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 700;
+  text-align: center;
+  color: var(--basic-white);
+  background-color: var(--basic-green);
+}
+  
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.visually-hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+}
+
+/* Main navigation */
+
+.main-navigation {
+  line-height: 28px;
+
+.site-navigation {
+  list-style: none;
+}
+
+/* Main banner */
+
+.two-icecreams {
+  font-size: 60px;
+  line-height: 60px;
+}
+
+.two-icecreams-name {
+  border: 1px solid #000000;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+/* Banners */
+
+.banner h3 {
+  font-size: 35px;
+  line-height: 41px;
+}
+
+.banner {
+  font-size: 18px;
+  line-height: 22px;
+}
+
+div .raspberry {
+  width: 560px;
+  height: 229px;
+  background-image: url("../img/raspberry_bg.jpg");
+  background-position: top center;
+  background-repeat: no-repeat;
+  border-radius: 16px;
+}
+
+div .chocolate {
+  width: 560px;
+  height: 229px;
+  background-image: url("../img/chocolate_bg.jpg");
+  background-position: top center;
+  background-repeat: no-repeat;
+  border-radius: 16px;
+}
+
+/* Hits */
+.hits-list {
+  list-style: none;
+}
+
+.hits-item {
+  background-image: url("../img/hit.svg");
+  background-color: var(--basic-white);
+  width: 61px;
+  height: 61px;
+  border-radius: 50%;
+  font-size: 45px;
+  line-height: 45px;
+}
+
+.hits-item span {
+  font-size: 30px;
+  line-height: 35px;
+}
+
+.hits-item a {
+  font-size: 16px;
+  line-height: 22px;
+}
+
+/* About */
+
+.about {
+  font-weight: normal;
+  color: var(--basic-black)
+  background-image: url("../img/wafer.png");
+  background-position: top left;
+  background-repeat: repeat;
+  width: 1146px;
+  height: 306px;
+  border-radius: 16px;
+}
+
+.text-about {
+  font-size: 24px;
+  line-height: 30px;
+}
+
+.about.icecream {
+  background-image: url("../img/ice-cream.svg");
+  width: 49px;
+  height: 49px; 
+}
+
+.about.eco {
+  background-image: url("../img/eco.svg");
+  width: 49px;
+  height: 49px;
+}
+
+.about.cow {
+  background-image: url("../img/cow.svg");
+  width: 49px;
+  height: 49px;
+}
+
+.about.thermometr {
+  background-image: url("../img/thermometr.svg");
+  width: 49px;
+  height: 49px;
+}
+
+/* Blog news */
+
+.blog-news {
+  background-image: url("../img/strawberry_bg_news.png");
+  background-position: top center;
+  background-repeat: no-repeat;
+  color: var(--basic-black)
+}
+
+.blog-news a {
+  font-size: 24px;
+  line-height: 30px;
+}

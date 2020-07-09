@@ -6,7 +6,10 @@
   --basic-red: #9D8B84;
   --basic-black: #323232;
   --basic-white: #FFFFFF;
-  --basic-grey: #F8F7F4;
+  --light-white: #FEFEFE;
+  --white-grey: #F8F7F4;
+  --black-grey: #5A5A5A;
+  --white-blue: #FBFCFB; 
 
   --background-hover-pink: #FBDED7;
   --background-focus-pink: #F6B5A5;
@@ -29,6 +32,10 @@ body {
   color: var(--basic-white);
   background-color: var(--basic-green);
 }
+
+a {
+  color: var(--basic-white);
+}
   
 img {
   max-width: 100%;
@@ -45,11 +52,32 @@ img {
 
 /* Main navigation */
 
+.logo {
+  position: absolute;
+  width: 154px;
+  height: 64px;
+  left: 27px;
+  top: 9px;
+  color: var(--white-blue);
+}
+
 .main-navigation {
   line-height: 28px;
+}
 
 .site-navigation {
   list-style: none;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  left: 205px;
+  top: 32px;
+  
+}
+
+.phone-number {
+  font-size: 22px;
+  line-height: 24px;
 }
 
 /* Main banner */
@@ -57,11 +85,16 @@ img {
 .two-icecreams {
   font-size: 60px;
   line-height: 60px;
+  
 }
 
-.two-icecreams-name {
-  border: 1px solid #000000;
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+.two-icecreams li {
+  list-style: none;
+}
+
+.give-two {
+  font-size: 32px;
+  line-height: 44px;
 }
 
 /* Banners */
@@ -76,7 +109,12 @@ img {
   line-height: 22px;
 }
 
-div .raspberry {
+.banner a {
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.raspberry {
   width: 560px;
   height: 229px;
   background-image: url("../img/raspberry_bg.jpg");
@@ -85,7 +123,7 @@ div .raspberry {
   border-radius: 16px;
 }
 
-div .chocolate {
+.chocolate {
   width: 560px;
   height: 229px;
   background-image: url("../img/chocolate_bg.jpg");
@@ -99,12 +137,12 @@ div .chocolate {
   list-style: none;
 }
 
-.hits-item {
-  background-image: url("../img/hit.svg");
-  background-color: var(--basic-white);
-  width: 61px;
-  height: 61px;
-  border-radius: 50%;
+.hits-item a {
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.hits-item p {
   font-size: 45px;
   line-height: 45px;
 }
@@ -114,16 +152,11 @@ div .chocolate {
   line-height: 35px;
 }
 
-.hits-item a {
-  font-size: 16px;
-  line-height: 22px;
-}
-
 /* About */
 
 .about {
   font-weight: normal;
-  color: var(--basic-black)
+  color: var(--basic-black);
   background-image: url("../img/wafer.png");
   background-position: top left;
   background-repeat: repeat;
@@ -164,13 +197,88 @@ div .chocolate {
 /* Blog news */
 
 .blog-news {
+  width: 560px;
+  height: 220px;
+  left: 27px;
+  top: 1626px;  
   background-image: url("../img/strawberry_bg_news.png");
   background-position: top center;
   background-repeat: no-repeat;
-  color: var(--basic-black)
+  color: var(--basic-black);
+  
+}
+
+.blog-news h2 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
 }
 
 .blog-news a {
   font-size: 24px;
   line-height: 30px;
+  color: var(--basic-black)
 }
+
+/* Subscribe */
+
+.subscribe {
+  width: 548px;
+  height: 210px;
+  left: 619px;
+  top: 1631px;
+  font-weight: normal;    
+  color: var(--black-grey);
+  background-color: var(--white-grey);
+  border-radius: 16px;
+}
+
+/* Contacts */
+
+.contacts {
+  background-image: url("../img/pin.svg");
+  background-repeat: no-repeat; 
+}
+
+.main-contacts p {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.main-contacts {
+  width: 303px;
+  height: 306px;
+  left: 870px;
+  top: 1948px;
+  background-color: var(--light-white);
+  border-radius: 16px;
+  color: var(--basic-black);
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: bold;
+}
+
+.main-contacts .bold {
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: bold;
+}
+
+.main-contacts a {
+  color: var(--basic-black);
+}
+
+.main-contacts button {
+  color: var(--basic-white);
+  font-size: 18px;
+  line-height: 24px;
+}
+
+/* Footer */
+
+.main-footer li {
+  list-style: none;
+}
+
+ 

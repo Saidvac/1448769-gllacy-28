@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Глейси</title>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
     <link href="css/normalize.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
   </head>
@@ -31,7 +31,7 @@
         <a href="#" class="into">Вход</a>
         <a href="#" class="empty">Пусто</a>
       <div class="header-contact">
-        <p>c 10 до 20, ежедневно</p>
+        <p class="work-time">c 10 до 20, ежедневно</p>
         <a href="tel:+78124502525" class="phone-number">8  812 450-25-25</a>
       </div>
     </header>
@@ -42,22 +42,33 @@
       <section class="two-icecreams">
         <h2 class="visually-hidden">Баннеры с двумя видами мороженного</h2>
         <ul class="two-icecreams-list">
-          <li class="two-icecreams-green">
+          <li class="two-icecreams-green" id="two-icecreams-green">
             <img src="img/icecreams-bg-green.png" width="647" height="584">
             <span class="two-icecreams-name">Крем-брюле и пломбир с малиновым джемом</span>
-            <button>переключить</button>
           </li>
-          <li class="two-icecreams-blue">
+          <li class="two-icecreams-blue" id="two-icecreams-blue">
             <img src="img/icecreams-bg-blue.png" width="647" height="584">
             <span>Шоколадный пломбир и лимонный сорбет</span>
-            <button type="button">переключить</button>
           </li>
-          <li class="two-icecreams-red">
+          <li class="two-icecreams-red" id="two-icecreams-red">
             <img src="img/icecreams-bg-red.png" width="647" height="584">
             <span>Пломбир с помадкой и клубничный щербет</span>
-            <button type="button">переключить</button>
           </li>
         </ul>
+
+        <ul>
+          <li>
+            <a href="two-icecreams-green">Слайд 1</a>
+          </li>
+          <li>
+            <a href="two-icecreams- blue">Слайд 2</a>
+          </li>
+          <li>
+            <a href="two-icecreams-red">Слайд 3</a>
+          </li>
+        </ul>
+
+        <button type="button"><span class="give-two">Давайте оба!</span></button>
 
       </section>
 
@@ -138,9 +149,9 @@
         <h2 class="visually-hidden">Контакты</h2>
         <div class="main-contacts">
           <p>Адрес главного офиса <br> и офлайн-магазина:</p>
-          <p><b>ул. Большая Конюшенная,<br> 19/8, Санкт-Петербург</b></p>
+          <p class="bold">ул. Большая Конюшенная,<br> 19/8, Санкт-Петербург</p>
           <p>Для заказов по телефону:</p>
-          <a href="tel:+78124502525" class="phone-number">8 812 450-25-25</a>
+          <a href="tel:+78124502525" class="bold">8 812 450-25-25</a>
           <p>(с 10 до 20 ежедневно)</p>
           <button type="button">Форма обратной связи</button>
         </div>
@@ -188,7 +199,7 @@
 
       <section class="htmlcademy"> 
         <h2 class="visually-hidden">Разаработано</h2>
-        <a class="logo">
+        <a class="logo-html">
           <img src="img/logo-htmlacademy.svg" width="108" height="39" alt="Логотип HTML Academy">
         </a>
         <p class="copyright">Сделано в <a href="https://htmlacademy.ru/">HTML Academy</a> &copy; 2019</p>
